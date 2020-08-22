@@ -28,6 +28,7 @@
 .CMS_maker .section {
     width: 100%;
     height: calc(50vh - 5px);
+    width: calc(100% - 20px);
 }
 
 .CMS_maker #editor {
@@ -36,7 +37,7 @@
 
 .CMS_maker #editor textarea {
     border: 1px solid var(--color_2);
-    width: 100%;
+    width: calc(100% - 0px);
     height: calc(100% - 30px);
     resize: none;
     font-size: 14px;
@@ -46,6 +47,7 @@
     background-color: white;
     width: 100%;
     height: calc(100% - 30px);
+    width: 100vw;
 }
 
 .CMS_maker #effect {

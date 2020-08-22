@@ -314,7 +314,7 @@ const fitBorders = () => {
     rightBor.style.left = v.resR + 'px';
     rightBor.style.height = v.resH + 'px';
 
-    sizeNow.innerHTML = 'width: ' + r.width + 'px';
+    sizeNow.innerHTML = 'width: ' + (r.width - 2) + 'px';
 }
 
 const measuerResult = () => {
@@ -327,7 +327,7 @@ const measuerResult = () => {
     fitBorders();
 }
 
-const setResultWith = (w = window.innerWidth - 20) => {
+const setResultWith = (w = window.innerWidth - 60) => {
     result.style.width = w + 'px';
     fitBorders();
 }
@@ -369,6 +369,7 @@ const start = () => {
     document.body.onmouseup = e => mouseUp();
     measuerResult();
     measuerResult();
+    setResultWith();
     // webSrc.value = 'https://185.157.83.50';
 }
 
