@@ -27,7 +27,7 @@
 
 .CMS_maker .section {
     width: 100%;
-    height: calc(50vh - 5px);
+    height: calc(50vh - 20px);
     width: calc(100% - 20px);
 }
 
