@@ -375,7 +375,9 @@ const start = () => {
 
 start();
 
-
+window.onresize = () => {
+    setResultWith();
+}
 
 
 
