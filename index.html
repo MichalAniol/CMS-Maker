@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;  charset=utf-8">
+    <title>CMS maker</title>
+    <link rel='stylesheet' type='text/css' href='index.css'>
+    <!-- <link rel='stylesheet' type='text/css' href='normalize.css'> -->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body class="CMS_maker">
+
+    <!-- <style>
+        div {font-size: 50px; background-color: blueviolet;}
+    </style> -->
+    
+    <div id="editor" class="section">
+        <div class="center">
+            <div class="bar">
+               <!-- src: <input id="web_src"/> -->
+                <button id="change" onclick="setChange()">>> change <<</button>
+                <button id="chang_imme" onclick="changeImmeOnOff()">change immediately: off</button>
+                <button onclick="deleteClasses()">delete classes</button>
+                <button onclick="deleteStyles()">delete inline styles</button>
+                <a href="https://htmlemail.io/inline" target="_blank">
+                    <img src="img/htmlemail.png" alt="Responsive Email CSS Inliner" title="Responsive Email CSS Inliner" />
+                </a>
+                <button onclick="copy()">copy</button>
+            </div>
+        </div>
+        <textarea id="sourse" onkeypress="setImmChange()"></textarea>
+    </div>
+    <div class="spliter">
+        <div class="line"></div>
+    </div>
+    <div id="effect" class="section">
+        <div class="center">
+            <div class="bar">
+                <button onclick="setResultWith()">full width</button>
+                <button onclick="setResultWith(1200)">1200px</button>
+                <button onclick="setResultWith(979)">979px</button>
+                <button onclick="setResultWith(757)">757px</button>
+                <button onclick="setResultWith(630)">630px</button>
+                <button onclick="setResultWith(550)">550px</button>
+                <button onclick="setResultWith(480)">480px</button>
+                <button onclick="setResultWith(396)">396px</button>
+                <button onclick="setResultWith(367)">367px</button>
+                <button onclick="setResultWith(320)">320px</button>
+                <div id="size_now">size_now</div>
+            </div>
+        </div>
+        <div id="result" class="cm"></div>
+        <div id="left_border" class="border"></div>
+        <div id="right_border" class="border"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+#result {
+    margin: 0;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+#result main {
+    display: block;
+}
+
+#result h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+#result hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+#result pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+#result a {
+    background-color: transparent;
+}
+
+#result abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+#result b, #result strong {
+    font-weight: bolder;
+}
+
+#result code, #result kbd, #result samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+#result small {
+    font-size: 80%;
+}
+
+#result sub, #result sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+#result sub {
+    bottom: -0.25em;
+}
+
+#result sup {
+    top: -0.5em;
+}
+
+#result img {
+    border-style: none;
+}
+
+#result button, #resultinput, #result optgroup, #result select, #result textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+#result button, #result input {
+    overflow: visible;
+}
+
+#result button, #result select {
+    text-transform: none;
+}
+
+#result button, #result [type="button"], #result [type="reset"], #result [type="submit"] {
+    -webkit-appearance: button;
+}
+
+#result button::-moz-focus-inner, #result [type="button"]::-moz-focus-inner, #result [type="reset"]::-moz-focus-inner, #result [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+#result button:-moz-focusring, #result [type="button"]:-moz-focusring, #result [type="reset"]:-moz-focusring, #result [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+#result fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+#result legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+#result progress {
+    vertical-align: baseline;
+}
+
+#result textarea {
+    overflow: auto;
+}
+
+#result [type="checkbox"], #result [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#result [type="number"]::-webkit-inner-spin-button, #result [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+#result [type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+#result [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+#result ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+#result details {
+    display: block;
+}
+
+#result summary {
+    display: list-item;
+}
+
+#result template {
+    display: none;
+}
+
+#result [hidden] {
+    display: none;
+}
+
+#result html, #result , #result div, #result span, #result applet, #result object, #result iframe,
+h1, #result h2, #result h3, #result h4, #result h5, #result h6, #result p, #result blockquote, #result pre,
+a, #result abbr, #result acronym, #result address, #result big, #result cite, #result code,
+del, #result dfn, #result em, #result img, #result ins, #result kbd, #result q, #result s, #result samp,
+small, #result strike, #result strong, #result sub, #result sup, #result tt, #result var,
+b, #result u, #result i, #result center,
+dl, #result dt, #result dd, #result ol, #result ul, #result li,
+fieldset, #result form, #result label, #result legend,
+table, #result caption, #result tbody, #result tfoot, #result thead, #result tr, #result th, #result td,
+article, #result aside, #result canvas, #result details, #result embed, #result 
+figure, #result figcaption, #result footer, #result header, #result hgroup, #result 
+menu, #result nav, #result output, #result ruby, #result section, #result summary,
+time, #result mark, #result audio, #result video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+#result article, #result aside, #result details, #result figcaption, #result figure, #result 
+footer, #result header, #result hgroup, #result menu, #result nav, #result section {
+	display: block;
+}
+#result {
+	line-height: 1;
+}
+#result ol, #result ul {
+	list-style: none;
+}
+#result blockquote, #result q {
+	quotes: none;
+}
+#result blockquote:before, #result blockquote:after,
+q:before, #result q:after {
+	content: '';
+	content: none;
+}
+#result table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
